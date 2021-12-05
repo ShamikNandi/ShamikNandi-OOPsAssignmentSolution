@@ -3,7 +3,7 @@ package com.gl.modelDepartments;
 public class SuperDepartment {
 
 	public String departmentName() {
-		return "Super Department ";
+		return "Super Department";
 	}
 
 	public String getTodaysWork() {
