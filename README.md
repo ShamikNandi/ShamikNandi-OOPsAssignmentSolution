@@ -5,41 +5,53 @@
  **Super Department** class will be the superclass and all other departments must extend it.
  We have a super class Super Department with following methods in it-
  i)  departmentName 
- - departmentName will return “ Super Department “
+     - departmentName will return “ Super Department “
+     
  ii)  getTodaysWork  
- - getTodaysWork will return  “ No Work as of now”
+     - getTodaysWork will return  “ No Work as of now”
+     
  iii) getWorkDeadline
- - getWorkDeadline will return “ Nil “
+    - getWorkDeadline will return “ Nil “
+    
  iv) isTodayAHoliday
- - isTodayAHoliday will return “ Today is not a holiday”
+    - isTodayAHoliday will return “ Today is not a holiday”
+    
 
 **Admin department** will contain 3 methods of return type String and will not accept any parameter
 i)  departmentName 
-- departmentName will return “ Admin Department “
+   - departmentName will return “ Admin Department
+
 ii)  getTodaysWork  
-- getTodaysWork will return “Complete your documents Submission”
+   - getTodaysWork will return “Complete your documents Submission”
+
 iii) getWorkDeadline
-- getWorkDeadline will return “ Complete by EOD “
+    - getWorkDeadline will return “ Complete by EOD “
 
 **Hr department** will contain 4 methods of return type String and will not accept any parameter
 i)  departmentName 
-- departmentName will return “ Hr Department “
+  - departmentName will return “ Hr Department “
+  
 ii)  getTodaysWork  
-- getTodaysWork will return  “ Fill today’s timesheet and mark your attendance”
+  - getTodaysWork will return  “ Fill today’s timesheet and mark your attendance”
+ 
 iii) getWorkDeadline
-- getWorkDeadline will return “ Complete by EOD “
+  - getWorkDeadline will return “ Complete by EOD “
+
 iv) doActivity
-- doActivity “team Lunch”
+   - doActivity “team Lunch”
 
 **Tech department** will contain 4 methods of return type String and will not accept any parameter
  i)  departmentName 
- - departmentName will return “ Tech Department “
+    - departmentName will return “ Tech Department “
+    
 ii)  getTodaysWork  
-- getTodaysWork will return  “ Complete coding of module 1”
+    - getTodaysWork will return  “ Complete coding of module 1”
+    
 iii) getWorkDeadline
-- getWorkDeadline will return “ Complete by EOD “
+    - getWorkDeadline will return “ Complete by EOD “
+    
 iv) getTechStackInformation
-- getTechStackInformation will return “core Java”
+   - getTechStackInformation will return “core Java”
 
 Driver class Main will be used to create objects of HrDepartment, TechDepartment, AdminDepartment
 → Each department will display all its functionalities.
