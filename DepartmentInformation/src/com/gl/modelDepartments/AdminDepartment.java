@@ -3,14 +3,14 @@ package com.gl.modelDepartments;
 public class AdminDepartment extends SuperDepartment {
 
 	public String departmentName() {
-		return " Admin Department ";
+		return "Admin Department ";
 	}
 
 	public String getTodaysWork() {
-		return " Complete your documents Submission";
+		return "Complete your documents Submission";
 	}
 
 	public String getWorkDeadline() {
-		return " Complete by EOD ";
+		return "Complete by EOD ";
 	}
 }
